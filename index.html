@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- External css  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- <FONTS> --> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+    <body>
+        <header>
+            <div class="header-container">
+                <div>
+                    <h1>audiophile</h1>
+                </div>
+                <div class="header-links">
+                    <a href="#">Home</a>
+                    <a href="#">Headphones</a>
+                    <a href="#">Speakers</a>
+                    <a href="#">Earphones</a>
+                </div>
+                <div class="cart-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M17 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2M1 2v2h2l3.6 7.59l-1.36 2.45c-.15.28-.24.61-.24.96a2 2 0 0 0 2 2h12v-2H7.42a.25.25 0 0 1-.25-.25q0-.075.03-.12L8.1 13h7.45c.75 0 1.41-.42 1.75-1.03l3.58-6.47c.07-.16.12-.33.12-.5a1 1 0 0 0-1-1H5.21l-.94-2M7 18c-1.11 0-2 .89-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2"/></svg>
+                </div>
+                <div id="hamburger">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22px" height="22px" viewBox="0 0 64 64"><path fill="#e7a74f" d="M62 44.5C62 56.5 51.1 62 32.2 62c-19 0-29.8-5.5-29.8-17.5c0-17.6 59.6-17.6 59.6 0"/><path fill="#ba8443" d="M61.8 36.2c0 12-10.8 17.5-29.7 17.5c-18.8 0-29.7-5.5-29.7-17.5c.1-17.5 59.4-17.5 59.4 0"/><path fill="#826046" d="M2.4 36.5c0-5 5.9-11.9 29.8-11.9S62 31.6 62 36.5c0 9.1-8.4 15.7-29.8 15.7S2.4 45.6 2.4 36.5"/><path fill="#68472c" d="M3 31.3c0-5 5.8-11.9 29.2-11.9s29.2 7 29.2 11.9c0 9.1-8.2 15.7-29.2 15.7S3 40.4 3 31.3"/><path fill="#ef4d3c" d="M3.2 24.8c1.4-3 5.1-3.2 17.1 1.9s14.3 7.8 12.9 10.9c-2.6 5.5-9.7 9.6-20.5 5S.5 30.4 3.2 24.8"/><path fill="#d33b23" d="M4.2 21.4c1.4-3 5.1-3.2 17.1 1.9s14.3 7.8 12.9 10.9c-2.6 5.5-9.7 9.6-20.5 5S1.5 26.9 4.2 21.4"/><path fill="#ef4d3c" d="M29.3 34.5c-.8-3.2 2-5.5 14.9-8.3s16.4-2 17.2 1.3c1.5 5.9-1.5 13.2-13.1 15.7c-11.5 2.5-17.6-2.8-19-8.7"/><path fill="#d33b23" d="M28 31.3c-.8-3.2 2-5.5 14.9-8.3s16.4-2 17.2 1.3C61.6 30.2 58.6 37.5 47 40c-11.5 2.5-17.5-2.8-19-8.7"/><path fill="#ffe62e" d="m9.7 30.9l20 19.2l19.6-19.2z"/><path fill="#8cc63e" d="M60.7 25.9s.9 3.4 0 4.4c-.8.9-3.3-.1-4.4.7c-1 .7-.7 3.4-1.9 4c-1.1.6-3.2-1.1-4.4-.6c-1.1.4-1.5 3.1-2.7 3.5c-1.2.3-3-1.7-4.2-1.5s-2 2.8-3.3 3c-1.2.2-2.7-2.1-4-2c-1.2.1-2.4 2.5-3.7 2.5s-2.4-2.5-3.7-2.5c-1.3-.1-2.7 2.2-4 2s-2.1-2.7-3.3-3c-1.3-.3-3 1.8-4.2 1.5c-1.2-.4-1.6-3-2.7-3.5c-1.2-.5-3.4 1.2-4.4.6c-1.2-.6-.9-3.3-1.9-4c-1.1-.8-3.6.2-4.4-.7c-.9-1 0-4.4 0-4.4z"/><path fill="#e7a74f" d="M62 23.4c0 6.5-13.3 9.7-29.8 9.7S2.4 29.9 2.4 23.4C2.4 11.6 15.7 2 32.2 2S62 11.6 62 23.4"/><path fill="#ffc17a" d="m16.3 14.4l-1.6 1.5l-1.5-1.5l1.5-1.5zm7.4-2.4l-1.5 1.5l-1.5-1.5l1.5-1.5zm4.3 6.8l-1.6 1.5l-1.5-1.5l1.5-1.5zm5.2-5.4l-1 1l-1-1l1-1zm18.7 3.9l-1 1l-1-1l1-1zm6.2 1l-1 1l-1-1l1-1zM46.4 11l-1 1l-1-1l1-1zM15.9 9.7l-1 1l-1-1l1-1zm-5.4 4.7l-1 1l-1-1l1-1zm6.3 6.7l-1 1l-1.1-1l1.1-1zM28.5 5.7l-1 1l-1.1-1l1.1-1zm9.5-1l-1 1l-1-1l1-1zm-15.8 2l-1 1l-1-1l1-1zm28.7 2.4l-1 1l-1-1l1-1zM40 21.7l-1.5 1.5l-1.5-1.5l1.5-1.5zM37.6 14l-1.5 1.5l-1.5-1.5l1.5-1.5zm5.6-5.8l-1.5 1.5l-1.5-1.5l1.5-1.5zm4.4 6.5l-1.5 1.5l-1.6-1.5l1.6-1.5zm6.4-2.2L52.5 14l-1.6-1.5l1.6-1.5zm-4.9 8.8l-1.5 1.5l-1.5-1.5l1.5-1.5zm-36.6-2.6L11 20.2l-1.5-1.5l1.5-1.5z"/>
+                    </svg>
+                </div>
+            </div>
+        </header>  
+        <main>
+            <div class="banner-section">
+                <div class="banner-container">
+                    <div class="banner-text"> 
+                        <h6>New Product</h6>
+                        <h4>XX99 MARK || <br>HEAD PHONES</h4>
+                         <p>Experience naural, lifelike audio and expectional  <br>build quality made for the passionate music <br>enthusiasts </p>
+                        <button>See Products</button>
+                    </div>
+                    <div class="banner-img">
+                        <img src="great.png">
+                    </div>
+                </div>
+            </div>
+            <div class="previous">
+                <div class="second-section">
+                     <div class="card-container">  
+                        <div class="item" id="item2">
+                            <div class="inside">
+                                <img src="great.png">
+                            </div>
+                             <p><b>Headphones</b> <br> shop <span> > </span> </p>
+                        </div>
+                        <div class="item" id="item1">
+                            <div class="outside">
+                                <img src="Speaker.png">
+                            </div>
+                             <p><b>Speakers </b> <br>shop <span> > </span></p>
+                        </div>
+                        <div class="item" id="item3">
+                            <div class="right">
+                                <img src="ear bud.png">
+                            </div>
+                             <p><b>Earphones</b><br>shop <span>></span></div></p>
+                    </div>
+                </div>
+            </div> 
+            <div class="future">
+                <div class="big-section">
+                    <div class="race">
+                        <img src="speakers.png">
+                   </div>
+                   <div class="change">
+                        <h2> ZK9 <br> Speakers</h2> 
+                        <p>upgrade to premium speakers that are <br>
+                        phenomenally built to deliver trully <br> remarkable sound.
+                        </p>
+                       <button> See Products </button>
+                   </div>
+                </div>
+            </div>  
+        <div class="now">
+            <div class="big-container"> 
+                  <img src="Curly hair bangs.jpeg">
+                <div class="ankle-container">
+                    <h3>BRINGING YOU THE <span>BEST </span>AUDIO GEAR </h3>
+                   Located at the heart of new york city. Audiophile is the premier store 
+                   for high end headphones, earphones, speakers and audio accessories. 
+                   we have a large showroo and luxury demonstration rooms available  for you 
+                   to browse and experience wide ragne of our products. Stop by our store 
+                   to meet some of the fantastic people who make Audiophile          
+                   the best place to buy your portable audio equipment          
+                </div>
+            </div>
+        </div>
+    </main>
+     <footer>
+        <div class="footer-container">
+                <div class="first-row">
+                    <div>
+                        <h4>audiophile</h4>
+                    </div>
+                    <div>
+                        <div class="footer-menu">
+                            <a href="#">Home</a>
+                            <a href="#">Headphones</a>
+                            <a href="#">Speakers</a>
+                            <a href="#">Earphones</a>
+                        </div>
+                    </div>
+                </div>
+                 <div class="pa-svg">
+                        <div>
+                                <p>
+                                    long notes <br>
+                                </p>
+                        </div>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M20.9 2H3.1A1.1 1.1 0 0 0 2 3.1v17.8A1.1 1.1 0 0 0 3.1 22h9.58v-7.75h-2.6v-3h2.6V9a3.64 3.64 0 0 1 3.88-4a20 20 0 0 1 2.33.12v2.7H17.3c-1.26 0-1.5.6-1.5 1.47v1.93h3l-.39 3H15.8V22h5.1a1.1 1.1 0 0 0 1.1-1.1V3.1A1.1 1.1 0 0 0 20.9 2"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="M7.91 20.889c8.302 0 12.845-6.885 12.845-12.845c0-.193 0-.387-.009-.58A9.2 9.2 0 0 0 23 5.121a9.2 9.2 0 0 1-2.597.713a4.54 4.54 0 0 0 1.99-2.5a9 9 0 0 1-2.87 1.091A4.5 4.5 0 0 0 16.23 3a4.52 4.52 0 0 0-4.516 4.516c0 .352.044.696.114 1.03a12.82 12.82 0 0 1-9.305-4.718a4.526 4.526 0 0 0 1.4 6.03a4.6 4.6 0 0 1-2.043-.563v.061a4.524 4.524 0 0 0 3.62 4.428a4.4 4.4 0 0 1-1.189.159q-.435 0-.845-.08a4.51 4.51 0 0 0 4.217 3.135a9.05 9.05 0 0 1-5.608 1.936A9 9 0 0 1 1 18.873a12.84 12.84 0 0 0 6.91 2.016Z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12.001 9a3 3 0 1 0 0 6a3 3 0 0 0 0-6m0-2a5 5 0 1 1 0 10a5 5 0 0 1 0-10m6.5-.25a1.25 1.25 0 0 1-2.5 0a1.25 1.25 0 0 1 2.5 0M12.001 4c-2.474 0-2.878.007-4.029.058c-.784.037-1.31.142-1.798.332a2.9 2.9 0 0 0-1.08.703a2.9 2.9 0 0 0-.704 1.08c-.19.49-.295 1.015-.331 1.798C4.007 9.075 4 9.461 4 12c0 2.475.007 2.878.058 4.029c.037.783.142 1.31.331 1.797c.17.435.37.748.702 1.08c.337.336.65.537 1.08.703c.494.191 1.02.297 1.8.333C9.075 19.994 9.461 20 12 20c2.475 0 2.878-.007 4.029-.058c.782-.037 1.308-.142 1.797-.331a2.9 2.9 0 0 0 1.08-.703c.337-.336.538-.649.704-1.08c.19-.492.296-1.018.332-1.8c.052-1.103.058-1.49.058-4.028c0-2.474-.007-2.878-.058-4.029c-.037-.782-.143-1.31-.332-1.798a2.9 2.9 0 0 0-.703-1.08a2.9 2.9 0 0 0-1.08-.704c-.49-.19-1.016-.295-1.798-.331C14.926 4.006 14.54 4 12 4m0-2c2.717 0 3.056.01 4.123.06c1.064.05 1.79.217 2.427.465c.66.254 1.216.598 1.772 1.153a4.9 4.9 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428c.047 1.066.06 1.405.06 4.122s-.01 3.056-.06 4.122s-.218 1.79-.465 2.428a4.9 4.9 0 0 1-1.153 1.772a4.9 4.9 0 0 1-1.772 1.153c-.637.247-1.363.415-2.427.465c-1.067.047-1.406.06-4.123.06s-3.056-.01-4.123-.06c-1.064-.05-1.789-.218-2.427-.465a4.9 4.9 0 0 1-1.772-1.153a4.9 4.9 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.012 15.056 2 14.717 2 12s.01-3.056.06-4.122s.217-1.79.465-2.428a4.9 4.9 0 0 1 1.153-1.772A4.9 4.9 0 0 1 5.45 2.525c.637-.248 1.362-.415 2.427-.465C8.945 2.013 9.284 2 12.001 2"/></svg>
+                        </div>
+                    </div>
+                    <div>
+                        <p id="Copyright" >
+                            Copyright 2021. All right reserved
+                        </p>
+                    </div>
+            <div>
+    </footer>
+    </body>  
+</html> 
+
+    
